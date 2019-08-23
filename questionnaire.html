@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl" id="questionnaireHtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <link href="styles/jquery-ui-slider-pips.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+</head>
+<body id="introPage">
+    <section id="q1" class="questionnaire">
+        <header id="header" class="">
+            <div id="container" class="container-fluid">
+                <div class="row siteInto">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="text-center">
+                            <h1 class="questionsHeadQ">שאלה 1</h1>
+                            <p id="qInstQ">
+                                אילו מהקטגוריות הבאות היא החשובה ביותר עבורך?
+
+                                <div id="qInstSpan">לחץ על התשובה הרלוונטית.</div>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+        <div class="carousel-container">
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner" id="my_text_slider">
+                    <div class="carousel-item active">
+                        <div class="slide1"></div>
+
+                        <div class="q2Imgs">
+                            <div class="q2ImgsDiv">
+                                <img src="images/briefcase1.png" width="150" height="150" id="workImgQ1" class="imagesTop" />
+                                <img src="images/briefcase.png" width="150" height="150" id="workImg2Q1" class="imagesBottom" />
+                                <div class="q1Spans" id="workSpanQ1"><span>עבודה</span></div>
+                            </div>
+                            <div class="q2ImgsDiv">
+                                <img src="images/friendship1.png" width="150" height="150" id="friendsImgQ1" class="imagesTop" />
+                                <img src="images/friendship.png" width="150" height="150" id="friendsImg2Q1" class="imagesBottom" />
+                                <div class="q1Spans" id="friendsSpanQ1"><span>חברים</span></div>
+                            </div>
+                            <div class="q2ImgsDiv">
+                                <img src="images/blackboard1.png" width="150" height="150" id="eduImgQ1" class="imagesTop" />
+                                <img src="images/blackboard.png" width="150" height="150" id="eduImg2Q1" class="imagesBottom" />
+                                <div class="q1Spans" id="eduSpanQ1"><span>לימודים</span></div>
+                            </div>
+                            <div class="q2ImgsDiv">
+                                <img src="images/family1.png" width="150" height="150" id="familyImgQ1" class="imagesTop" />
+                                <img src="images/family.png" width="150" height="150" id="familyImg2Q1" class="imagesBottom" />
+                                <div class="q1Spans" id="familySpanQ1"><span>משפחה</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" id="slidersQ1">
+                        <div class="row justify-content-center p-3 toggleHeading">
+                            <div class='col-push-2 col-sm-push-2 col-md-2 col-lg-2 col-xl-2 q3'>
+                                <img src="images/money-bag.png" class="q3Imgs" id="q3moneyImg" width="70" height="70" />
+                                <div class="labelSlider" style="font-size:1.3em;" id="labelSliderEco">כלכלית</div>
+                            </div>
+                            <div class="col-8 col-sm-8 col-md-6 col-lg-6 col-xl-6 q3">
+                                <div class="slider" id="q3SliderEco"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center p-3 toggleHeading">
+                            <div class='col-push-2 col-sm-push-2 col-md-2 col-lg-2 col-xl-2 q3'>
+                                <img src="images/family.png" id="q3familyImg" class="q3Imgs" width="70" height="70" />
+                                <div class="labelSlider" style="font-size:1.3em;" id="labelSliderFam">משפחתית</div>
+                            </div>
+                            <div class="col-8 col-sm-8 col-md-6 col-lg-6 col-xl-6 q3">
+                                <div id="slider-inner">
+                                    <div class="slider" id="q3SliderFam"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center p-3 toggleHeading">
+                            <div class='col-push-2 col-sm-push-2 col-md-2 col-lg-2 col-xl-2 q3'>
+                                <img src="images/friendship.png" id="q3friendsImg" class="q3Imgs" width="70" height="70" />
+                                <div class="labelSlider" style="font-size:1.3em;" id="labelSliderFri">חברתית</div>
+                            </div>
+                            <div class="col-8 col-sm-8 col-md-6 col-lg-6 col-xl-6 q3">
+                                <div class="slider" id="q3SliderFri"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 sliderDiv">
+                            <div class="q2Imgs" id="q4Imgs">
+                                <div class="q2ImgsDiv">
+                                    <img src="images/manager1.png" width="150" height="150" id="managerImgQ2" class="imagesTop" />
+                                    <img src="images/manager.png" width="150" height="150" id="managerImg2Q2" class="imagesBottom" />
+                                    <div class="q2Spans" id="teacherSpanQ2"><span>מורה/מנהל</span></div>
+                                </div>
+                                <div class="q2ImgsDiv">
+                                    <img src="images/family1.png" width="150" height="150" id="familyImgQ2" class="imagesTop" />
+                                    <img src="images/family.png" width="150" height="150" id="familyImg2Q2" class="imagesBottom" />
+                                    <div class="q2Spans" id="familySpanQ2"><span>בן משפחה</span></div>
+                                </div>
+                                <div class="q2ImgsDiv">
+                                    <img src="images/fist-bump1.png" width="150" height="150" id="friendImgQ2" class="imagesTop" />
+                                    <img src="images/fist-bump.png" width="150" height="150" id="friendImg2Q2" class="imagesBottom" />
+                                    <div class="q2Spans" id="friendSpanQ2"><span>חבר קרוב</span></div>
+                                </div>
+                                <div class="q2ImgsDiv">
+                                    <img src="images/nobody1.png" width="150" height="150" id="nobodyImgQ2" class="imagesTop" />
+                                    <img src="images/nobody.png" width="150" height="150" id="nobodyImg2Q2" class="imagesBottom" />
+                                    <div class="q2Spans" id="nobodySpanQ2"><span>אף אחד</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="row justify-content-center p-3 slidersQ2 marginQ4">
+                            <div class='col-push-2 col-sm-push-2 col-md-2 col-lg-2 col-xl-2 q3'>
+                                <img src="images/family.png" id="q3familyImg" class="q3Imgs" width="70" height="70" />
+                                <div class="labelSlider" style="font-size:1.3em;" id="labelSliderFam">משפחה</div>
+                            </div>
+                            <div class="col-8 col-sm-8 col-md-6 col-lg-6 col-xl-6 q3">
+                                <div id="slider-inner">
+                                    <div class="slider" id="q4SliderFam"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center p-3 slidersQ2 marginQ4">
+                            <div class='col-push-2 col-sm-push-2 col-md-2 col-lg-2 col-xl-2 q3'>
+                                <img src="images/friendship.png" id="q3friendsImg" class="q3Imgs" width="70" height="70" />
+                                <div class="labelSlider" style="font-size:1.3em;" id="labelSliderFri">חברים</div>
+                            </div>
+                            <div class="col-8 col-sm-8 col-md-6 col-lg-6 col-xl-6 q3">
+                                <div class="slider" id="q4SliderFri"></div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center p-3 slidersQ2 marginQ4">
+                            <div class='col-push-2 col-sm-push-2 col-md-2 col-lg-2 col-xl-2 q3'>
+                                <img src="images/blackboard.png" id="q3friendsImg" class="q3Imgs" width="70" height="70" />
+                                <div class="labelSlider" style="font-size:1.3em;" id="labelSliderFri">השכלה</div>
+                            </div>
+                            <div class="col-8 col-sm-8 col-md-6 col-lg-6 col-xl-6 q3">
+                                <div class="slider" id="q4SliderEdu"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 sliderDiv">
+                            <div class="q4Divs">
+                                <div class="q4">
+                                    <div class="q4div" id="noSpanQ4">
+                                        <div class="q4Spans" id="q4First"><span class="spansOfQ4" id="noSpan2Q4">כלל לא</span></div>
+                                    </div>
+                                </div>
+                                <div class="q4">
+                                    <div class="q4div" id="littleSpanQ4">
+                                        <div class="q4Spans"><span class="spansOfQ4" id="littleSpan2Q4">במידה מועטה</span></div>
+                                    </div>
+                                </div>
+                                <div class="q4">
+                                    <div class="q4div" id="yesSpanQ4">
+                                        <div class="q4Spans"><span class="spansOfQ4" id="yesSpan2Q4">במידה רבה</span></div>
+                                    </div>
+                                </div>
+                                <div class="q4">
+                                    <div class="q4div" id="verySpanQ4">
+                                        <div class="q4Spans"><span class="spansOfQ4" id="verySpan2Q4">במידה רבה מאוד</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="sliderDiv">
+                            <div class="q5Imgs">
+                                <div class="q5ImgsDiv">
+                                    <img src="images/youthLogo.png" width="150" height="60" id="youtCenterImgQ5" class="imagesTopQ5" />
+                                </div>
+                                <div class="q5ImgsDiv">
+                                    <img src="images/colZchut.png" width="140" height="110" id="colZchutImgQ5" class="imagesTopQ5" />
+                                </div>
+                                <div class="q5ImgsDiv">
+                                    <img src="images/jointLogo.png" width="130" height="100" id="jointImgQ5" class="imagesTopQ5" />
+                                </div>
+                                <div class="q5ImgsDiv">
+                                    <div id="noSpanQ5">
+                                        <div class="q5Spans"><span>לא פניתי לאף אחד מהאתרים/ארגונים הללו</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Qfinish" class="cssanimation sequence pullRelease">
+                            <span>סיימתם?<br />לחצו כאן</span>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev left" href="#carouselExampleControls" role="button" data-slide="next">
+                        <i class="fa fa-chevron-left fa-2x"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next right" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <i class="fa fa-chevron-right fa-2x"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+
+
+            </div>
+            <div id="results">
+                <!--<div id="pageRecommendation">
+                    אנו ממליצים לך לבדוק את העמודים הבאים...
+
+                </div>-->
+                
+                <div class="mycircles">
+                    <table>
+                        <tr>
+                        <td colspan="3" style="text-align: center; vertical-align: middle;">
+    <div id="firstChoice">
+        <span></span>
+    </div>
+</td>
+                        </tr>
+
+                        <tr>
+                        <td colspan="2" width="50%"><div id="secondChoice">
+    <span class="otherChoicesSpans"></span>
+</div></td>
+
+                        <td width="50%"><div id="thirdChoice">
+    <span class="otherChoicesSpans"></span>
+</div></td>
+                        </tr>
+                    </table>
+
+                  
+
+                </div>
+                <!--<div class="rightCircles" id="firstResult"></div>
+                <div class="leftCircles">
+                    <div id="secondResult"></div>
+                    <div id="thirdResult"></div>
+                    <div id="aboutUsResults"></div>-->
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+
+    <!--<script src="https://raw.githubusercontent.com/furf/jquery-ui-touch-punch/master/jquery.ui.touch-punch.js"></script>-->
+    <script src="jScripts/jquery.ui.touch-punch.js"></script>
+    <script src="jScripts/jquery-ui-slider-pips.js"></script>
+    <scrip src="jScripts/jquery-ui-slider-pips.js"></scrip>
+
+    <script src="jScripts/JavaScript2.js"></script>
+</body>
+</html>

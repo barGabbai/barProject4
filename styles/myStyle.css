@@ -1626,7 +1626,7 @@ table{
 
 
 .carousel-inner {
-    height: 800px !important;
+    height: 100% !important;
     max-height: 100% !important;
     margin-top: -130px;
 }
@@ -3053,7 +3053,7 @@ font-size:14pt;        }
             margin-left:0px;
         }
         #slidersQ1 {
-            height: 350px;
+
         }
 
         .startSpan {

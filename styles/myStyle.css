@@ -1626,15 +1626,15 @@ table{
 
 .carousel-inner {
     height: 100% !important;
-  /*  max-height: 100% !important;*/
+    max-height: 100% !important;
     margin-top: -130px;
 }
 
     .carousel-inner .item {
-        display: run-in;
+       /* display: run-in;*/
         width: 100%;
-        /*height:auto !important;*/
-        height: 100%;
+        height:auto !important;
+        /*height: 100%;*/
     }
 
 .carousel-container {

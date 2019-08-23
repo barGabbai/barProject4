@@ -1,0 +1,1137 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="jScripts/jquery.fitvids.js"></script>
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <!--<link href="Style/reset.css" rel="stylesheet" type="text/css" />-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="#">
+
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+</head>
+<body data-spy="scroll" data-target=".navbar" id="bodyIndex">
+    <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i><div>חזור למעלה</div></a>
+
+    <div id="containerOfSite">
+
+        <section id="primaryNav" style="margin-right:16px;">
+            <header id="header" class="fixed-top">
+                <div id="container" class="container-fullwidth primeNav">
+
+                    <nav class="navbar navbar-expand navbar-dark bg-dark primary-color sticky-top syncscroll" id="primaryNav">
+                        <div class="navbar-collapse collapse w-100 order-1 order-md-0">
+                            <ul class="navbar-nav mr-auto rightNav">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="careerLink" href="career.html">
+                                        <img src="images/career1.png" class="nav-imgs" height="50" alt="career page" id="careerNav" /><img src="images/career.png" class="nav-imgs2" height="50" alt="career page" id="careerNav2" />
+                                        <div class="rightNavSpan">
+                                            <span id="careerSpan">קריירה</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="friendshipLink" href="friendship.html">
+                                        <img src="images/friendship1.png" height="50" class="nav-imgs" alt="society page" id="friendshipNav" /><img src="images/friendship.png" height="50" class="nav-imgs2" alt="society page" id="friendshipNav2" />
+                                        <div class="rightNavSpan">
+                                            <span id="friendshipSpan">חברה</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="familyLink" href="family.html">
+                                        <img src="images/family1.png" height="50" class="nav-imgs" alt="family page" id="familyNav" /><img src="images/family.png" height="50" class="nav-imgs2" alt="family page" id="familyNav2" />
+                                        <div class="rightNavSpan">
+                                            <span id="familySpan">משפחה</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                            <ul class="navbar-nav ml-auto leftNav">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="aboutUsLink">
+                                        <img src="images/heart1.png" height="50" class="nav-imgs" id="aboutNav" alt="about page" style="opacity:0;" /><img src="images/heart.png" height="50" class="nav-imgs2" id="aboutNav2" alt="about page" />
+                                        <div class="leftNavSpan">
+                                            <span id="aboutSpan">עלינו</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </section>
+
+        <section id="introAbout" class="container-fullwidth">
+            <div class="titleOfPage">
+                <h1 class="title">קצת עלינו</h1>
+            </div>
+        </section>
+
+        <!--about us-->
+        <section class="d-none d-md-block innerPagesNav">
+            <div class="container-fluid justify-content-md-center" id="aboutUsSection">
+                <!--about us menu-->
+                <div class="row row100">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <nav class="navbar navbar-light secondNav">
+                            <a class="navbar-brand anchor" href="#historyPage">
+                                <img src="images/clock1.png" class="secondNavImgs disabled" id="img1Nav2" width="110" height="110" alt=""><img src="images/clock.png" class="secondNavImgs2" id="img1Nav2S" width="110" height="110" alt="">
+                                <span class="spansNav2" id="span1Nav2">היסטוריה</span>
+                            </a>
+                            <a class="navbar-brand anchor" href="#whoAreWePage">
+                                <img src="images/rose1.png" class="secondNavImgs disabled" id="img2Nav2" width="110" height="110" alt=""><img src="images/rose.png" class="secondNavImgs2" id="img2Nav2S" width="110" height="110" alt="">
+                                <span class="spansNav2" id="span2Nav2">מי אנחנו?</span>
+                            </a>
+                            <a class="navbar-brand anchor" id="progressBar" href="#numbersPage">
+                                <img src="images/pie-chart1.png" class="secondNavImgs disabled" id="img3Nav2" width="110" height="110" alt=""><img src="images/pie-chart.png" class="secondNavImgs2" id="img3Nav2S" width="110" height="110" alt="">
+                                <span class="spansNav2" id="span3Nav2">"בשבילי" במספרים</span>
+                            </a>
+                            <a class="navbar-brand anchor" href="#sayingPage">
+                                <img src="images/say1.png" class="secondNavImgs disabled" id="img4Nav2" width="110" height="110" alt=""><img src="images/say.png" class="secondNavImgs2" id="img4Nav2S" width="110" height="110" alt="">
+                                <span class="spansNav2" id="span4Nav2">צעירים אומרים...</span>
+                            </a>
+                            <a class="navbar-brand anchor" href="#contactPage">
+                                <img src="images/network1.png" class="secondNavImgs disabled" id="img5Nav2" width="110" height="110" alt=""><img src="images/network.png" class="secondNavImgs2" id="img5Nav2S" width="110" height="110" alt="">
+                                <span class="spansNav2" id="span5Nav2">צור קשר</span>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!--end of about us menu-->
+        </section>
+
+        <section class="pageContainer">
+            <div class="container-fullwidth justify-content-md-center textSection">
+                <div class="bgNav"></div>
+                <!--fixed-bg-->
+                <div id="videoAbout" class="anchor">
+                    <div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8" id="videoAboutCol">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/VtMsPcqF55o" frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"></div>
+
+                <!--HISTORY-->
+                <section id="historyContainer">
+                    <div id="historyPage" class="anchor">
+                        <div class="row">
+
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                <div class="textArea">
+                                    <h2 class="titleOfInner" id="titleHistory">היסטוריה</h2>
+                                    <!--<div id="hrHistory"></div>-->
+                                    <div id="historyContent">
+                                        <p>
+                                            תכנית "בשבילי" הוקמה על ידי
+                                            <a href="http://www.ashalim.org.il/" class="outerLinks" target="_blank"> ארגון ג'וינט</a>
+                                            הפועל למען קידום איכות החיים, שוויון הזדמנויות וצמצום פערים בחברה הישראלית.<br />
+                                        </p>
+                                        <p>
+                                            בשנת 2014 הוטמעה התכנית במלואה במשרד העבודה, הרווחה והשירותים החברתיים בשירות לנוער, צעירים וצעירות.
+                                        </p>
+                                        <p>
+                                            כיום התוכנית פועלת ב20 יישובים ברחבי הארץ ועתידה להתרחב במסגרת תכנית
+                                            ״<a href="https://yated.org/" class="outerLinks" target="_blank">יתד</a>״
+                                            , התוכנית הלאומית לצעירים וצעירות במשרד הרווחה, למרבית מרכזי הצעירים בארץ.
+                                        </p>
+                                        <p>
+                                            עד כה, תכנית "בשבילי" לוותה כ1500 צעירים וצעירות באופן פרטני וקבוצתי וסייעה להם לממש את היעדים שהציבו לעצמם.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <div class="thumbsDivAboutUs">
+                                            <img class="thumbAboutUs" src="images/YaelBenNun.JPG" width="83" height="80" />
+                                            <div class="thumbName">יעל בן-נון</div>
+                                            <div class="thumbPosition">מנהלת מקצועית מטעם "ג'וינט אשלים"</div>
+                                        </div>
+                                        <div class="thumbsDivAboutUs">
+                                            <img class="thumbAboutUs" src="images/oritLahav.jpeg" width="83" height="80" />
+                                            <div class="thumbName">אורית להב</div>
+                                            <div class="thumbPosition" id="thumbPosition">מפקחת ארצית מטעם הרווחה"</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+                        </div>
+                    </div>
+                </section>
+                <!--END OF HISTORY-->
+                <!--WHO ARE WE-->
+                <section id="whoAreWeContainer">
+                    <div id="whoAreWePage" class="anchor">
+                        <div class="row">
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                <div id="insideNavWhoAreWe">
+                                    <h2 class="titleOfInner">מי אנחנו?</h2>
+                                    <!--<div id="hrWhoWeAre"></div>-->
+
+                                    <div id="whoWeAreContent">
+                                        <div id="whoAreWeLinks">
+                                            <div>
+                                                <a id="goalsLink">מטרות ויעדים</a>
+                                                <div id="hr1"></div>
+                                            </div>
+                                            <div>
+                                                <a id="howItWorksLink">איך זה עובד?</a>
+                                                <div id="hr2"></div>
+                                            </div>
+                                        </div>
+
+
+                                        <div id="goals">
+                                            <p>
+                                                תכנית "בשבילי" פועלת במרכזי צעירים בפריסה ארצית למען קידום יעדיהם האישיים של צעירים וצעירות הזקוקים לליווי והכוונה, יחד עם חיזוק הקשר המשפחתי, פיתוח תחושת השייכות והמסוגלות האישית והרחבת הרשתות החברתיות שלהם לקראת יציאה לחיים עצמאיים.
+                                            </p>
+                                            <p>
+                                                מטרתנו היא לחולל שינוי ארוך טווח בקרב צעירים וצעירות אלו, על מנת שכל צעיר יוכל לממש את הפוטנציאל האישי ולקדם את יעדיו בתחומי ההשכלה, התעסוקה והחברה.
+                                            </p>
+                                        </div>
+                                        <div id="howItWorks">
+                                            <p>
+                                                התכנית בנויה ממפגשים אישיים במרכזי צעירים שונים ברחבי הארץ.
+                                                במסגרת המפגשים האישיים אנו מסייעים לכם על ידי:
+                                            </p>
+                                            <ul class="howItWorksList ulList">
+                                                <li>
+                                                    <span>שיחות אישיות והגדרת יעדים לשיפור בתחומים: תעסוקה, השכלה וחברה.</span>
+                                                </li>
+
+                                                <li>
+                                                    <span>ליווי פרטני עד להשגת היעדים שלכם.</span>
+                                                </li>
+
+                                                <li>
+                                                    <span>הפנייה לגורמים מתאימים לסיוע נוסף עבורכם.</span>
+                                                </li>
+                                                <li>
+                                                    <span>חיבור למרכז הצעירים- צוות היועצים, אירועים ופעילויות ועוד.</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+
+                        </div>
+                    </div>
+                </section>
+                <!--END OF WHO ARE WE-->
+                <!--BISHVILI IN NUMBERS-->
+                <section id="numbersContainer">
+                    <div id="numbersPage" class="anchor">
+                        <div class="row">
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+                            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                                <div id="startAnimation">
+                                    <h2 class="titleOfInner">"בשבילי" במספרים</h2>
+                                    <!--<div id="hrNumbers"></div>-->
+
+                                    <div id="infographicsPie">
+                                        <div class="pie" id="pie1">
+                                            <div class="outer-right mask" id="outer-right1">
+                                                <div class="inner-right" id="inner-right1"></div>
+                                            </div>
+
+                                            <div class="outer-left mask" id="outer-left1">
+                                                <div class="inner-left" id="inner-left1"></div>
+                                            </div>
+                                            <div class="content">
+                                                <span>1200</span>
+                                            </div>
+                                            <div class="arrowNumbers" id="arrow1"></div>
+
+                                        </div>
+
+                                        <div class="pie" id="pie2">
+                                            <div class="outer-right mask" id="outer-left2">
+                                                <div class="inner-right" id="inner-right2"></div>
+                                            </div>
+
+                                            <div class="outer-left mask" id="outer-right2">
+                                                <div class="inner-left" id="inner-left2"></div>
+                                            </div>
+                                            <div class="content">
+                                                <span>62%</span>
+                                            </div>
+                                            <div class="arrowNumbers" id="arrow2"></div>
+                                        </div>
+
+                                        <div class="pie" id="pie3">
+                                            <div class="outer-right mask" id="outer-left3">
+                                                <div class="inner-right" id="inner-right3"></div>
+                                            </div>
+
+                                            <div class="outer-left mask" id="outer-right3">
+                                                <div class="inner-left" id="inner-left3"></div>
+                                            </div>
+                                            <div class="content">
+                                                <span>57%</span>
+                                            </div>
+                                            <div class="arrowNumbers" id="arrow3"></div>
+                                        </div>
+
+                                        <div class="pie" id="pie4">
+                                            <div class="outer-right mask" id="outer-left4">
+                                                <div class="inner-right" id="inner-right4"></div>
+                                            </div>
+
+                                            <div class="outer-left mask" id="outer-right4">
+                                                <div class="inner-left" id="inner-left4"></div>
+                                            </div>
+                                            <div class="content">
+                                                <span>46%</span>
+                                            </div>
+                                            <div class="arrowNumbers" id="arrow4"></div>
+
+                                        </div>
+
+                                        <div class="pie" id="pie5">
+                                            <div class="outer-right mask" id="outer-left5">
+                                                <div class="inner-right" id="inner-right5"></div>
+                                            </div>
+
+                                            <div class="outer-left mask" id="outer-right5">
+                                                <div class="inner-left" id="inner-left5"></div>
+                                            </div>
+                                            <div class="content">
+                                                <span>41%</span>
+                                            </div>
+                                            <div class="arrowNumbers" id="arrow5"></div>
+
+                                        </div>
+                                    </div>
+                                    <div class="numbersDiv">
+                                        <div class="numberInformation" id="numberInformation1">
+                                            צעירים וצעירות, <b>בשנת 2018</b>, קיבלו ליווי צמוד ועזרה בהגעה ליעדים שהציבו לעצמם, ב-20 מרכזי צעירים מאילת ועד לרמת הגולן.
+                                        </div>
+
+
+                                        <div class="numberInformation" id="numberInformation2">
+                                            מהצעירים מעידים כי הפיקו תועלת רבה עקב השתתפותם בתכנית.
+                                        </div>
+
+                                        <div class="numberInformation" id="numberInformation3">
+                                            מהצעירים שהשתתפו בתכנית העלו את הסבירות למימוש הפוטנציאל שלהם בלימודים ובתעסוקה.
+                                        </div>
+
+                                        <div class="numberInformation" id="numberInformation4">
+                                            מהצעירים מעידים כי הבטחון העצמי והמוטיבציה עלתה בעקבות השתתפות בתכנית.
+                                        </div>
+
+                                        <div class="numberInformation" id="numberInformation5">
+                                            מהצעירים שהשתתפו בתכנית נמצאים ברמת סיכון נמוכה יותר משהיו בתחילת התהליך.
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+
+
+                    </div>
+                </section>
+                <!--END NUMBERS-->
+                <!--YOUTH SAY-->
+                <section id="sayingContainer">
+                    <div id="sayingPage" class="anchor">
+                        <div class="row">
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                <div id="youthSayContainer">
+                                    <h2 class="titleOfInner">צעירים אומרים...</h2>
+                                    <!--<div id="hrSay"></div>-->
+                                    <div id="sayContent">
+                                        <div>
+                                            <div class="whoSaid" id="firstSay">ג' אומר...</div>
+                                            <div class="whatIsSaid">"לקחת אחריות על חיי, הצבת יעדים".</div>
+                                        </div>
+
+                                        <div>
+                                            <div class="whoSaid">י' אומר...</div>
+                                            <div class="whatIsSaid">"אנשים שהיו כמוני, ילדי רחוב, שהולכים לכיוון לא טוב, זקוקים גם למקום הזה ולהכוונה בחיים".</div>
+                                        </div>
+
+                                        <div>
+                                            <div class="whoSaid">ש' אומרת...</div>
+                                            <div class="whatIsSaid">"למדתי שהכל אפשרי ולדרוש מעצמי יותר. שמחה על כל רגע בסדנה, גרמה לי להתעצם".</div>
+                                        </div>
+
+                                        <div>
+                                            <div class="whoSaid">ד' אומר...</div>
+                                            <div class="whatIsSaid">"מאוד נהניתי בפעילויות החברתיות בזכות החברים והאווירה ומאוד שמח להשתתף בפעילות ולהגיע למקום".</div>
+                                        </div>
+
+                                        <div>
+                                            <div class="whoSaid">ד' ומ' אומרים...</div>
+                                            <div class="whatIsSaid">"בזכות התכנית אנו רואים את עצמנו עם בגרות מלאה, מתקדמים בחיים ומוצאים עבודה".</div>
+                                        </div>
+
+                                        <div>
+                                            <div class="whoSaid">י' אומר...</div>
+                                            <div class="whatIsSaid">"אם לא הייתי פוגש את טובה (עובדת סוציאלית מטעם התכנית) לא הייתי חושב על תואר ועל השלמת השכלה אף פעם".</div>
+                                        </div>
+
+                                        <div>
+                                            <div class="whoSaid">ח' אומר...</div>
+                                            <div class="whatIsSaid">"להציב לעצמי יעדים בחיים ולעמוד בהם, לשלב המון תחומים שלא חשבתי שיעניינו אותי".</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+
+                        </div>
+                    </div>
+                </section>
+                <!--END OF YOUTH SAY-->
+                <!--CONTACT-->
+                <section id="contactContainer2">
+                    <div id="contactPage" class="anchor">
+                        <div class="row">
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+                            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                                <div id="contactContainer3">
+                                    <h2 class="titleOfInner">צור קשר</h2>
+                                    <!--<div id="hrContact"></div>-->
+                                    <div id="contactContent">
+                                        תכנית "בשבילי" פה בשבילכם!<br />
+                                        כל מה שעליכם לעשות זה לפנות לתכנית הקרובה אליכם!</p>
+                                    </div>
+                                    <div>
+                                        <div id="contactSpan">
+                                            איתור תכנית "בשבילי" הקרובה אליך:
+                                        </div>
+                                        <div class="dropdown">
+
+                                            <div class="btn-group">
+
+                                                <div class="form-group">
+                                                    <select class="form-control" id="exampleFormControlSelect1" name="contactSelect">
+                                                        <option selected="selected" disabled="disabled">בחר יישוב...</option>
+                                                        <option id="umElFahem">אום אל פאחם</option>
+                                                        <option id="eilat">אילת</option>
+                                                        <option id="efrat">אפרת</option>
+                                                        <option id="beerSheva">באר שבע</option>
+                                                        <option id="beitJan">בית ג'אן</option>
+                                                        <!--<option id="bneiShimon">בני שמעון</option>-->
+                                                        <option id="hadera">חדרה</option>
+                                                        <option id="holon">חולון</option>
+                                                        <option id="tiratCarmel">טירת כרמל</option>
+                                                        <option id="yokneam">יוקנעם</option>
+                                                        <option id="jerusalem">ירושלים</option>
+                                                        <option id="netanya">נתניה</option>
+                                                        <option id="aco">עכו</option>
+                                                        <option id="afula">עפולה</option>
+                                                        <option id="pardesHana">פרדס חנה-כרכור</option>
+                                                        <option id="rlz">ראשון לציון</option>
+                                                        <option id="rehovot">רחובות</option>
+                                                        <option id="shaarHanegev">שער הנגב</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="contactInfo">
+                                        <div id="contactInformation">
+                                            <div id="OrgOperating">
+                                                <span id="orgOperatingSpan">
+                                                    ארגון מפעיל:
+                                                </span>
+                                                <span id="nameOfOrg"></span>
+                                            </div>
+                                            <div id="contactWays">
+                                                <div id="contactInside">
+                                                    <div id="operatingPerson">
+                                                        <span id="operatingPersonSpan">
+                                                            <img src="images/coordinator.png" width="50" height="50" id="coordinatorImg" class="contactImgs" />
+                                                            רכז/ת:
+                                                        </span>
+                                                        <span id="nameOfOperatingPerson"></span>
+                                                    </div>
+                                                    <div id="phoneNum">
+                                                        <span id="phoneNumSpan">
+                                                            <img src="images/phone.png" width="50" height="50" id="phoneImg" class="contactImgs" />
+
+                                                            טלפון:
+                                                        </span>
+                                                        <span id="nameOfphoneNum"></span>
+                                                    </div>
+                                                    <div id="addressOfCenter">
+                                                        <span id="addressOfCenterSpan">
+                                                            <img src="images/location.png" width="50" height="50" id="locationImg" class="contactImgs" />
+
+                                                            כתובת:
+                                                        </span>
+                                                        <span id="nameOfAddressOfCenter"></span>
+                                                    </div>
+
+                                                </div>
+                            
+                                                    <div id="facebookAndEmail">
+                                                        <div id="facebookPage">
+                                                            <span id="facebookPageSpan">
+                                                                <a href="" id="linkToFacebook" target="_blank"><img src="images/facebook.png" href="" width="50" height="50" id="facebookImg" class="contactImgs" /></a>
+
+                                                            </span>
+                                                        </div>
+                                                        <div id="emailAddress">
+                                                            <span id="emailAddressSpan">
+                                                                <a href="" id="linkToEmail">
+                                                                    <img src="images/email.png" width="50" height="50" id="emailImg" class="contactImgs" />
+                                                                </a>
+
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <!--<img src="images/coordinator1.png" width="100" height="100" id="coordinatorImg" class="contactImgs" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />-->
+                                            <!--<img src="images/coordinator.png" width="100" height="100" id="coordinatorImg1" class="contactImgs2" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />
+
+                                            <!--<img src="images/location1.png" width="100" height="100" id="locationImg" class="contactImgs" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />-->
+                                            <!--<img src="images/location.png" width="100" height="100" id="locationImg1" class="contactImgs2" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />
+
+                                            <!--<img src="images/phone1.png" width="100" height="100" id="phoneImg" class="contactImgs" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />-->
+                                            <!--<img src="images/phone.png" width="100" height="100" id="phoneImg1" class="contactImgs2" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />
+
+                                            <!--<img src="images/email1.png" width="100" height="100" id="emailImg" class="contactImgs" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />-->
+                                            <!--<img src="images/email.png" width="100" height="100" id="emailImg1" class="contactImgs2" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />
+
+                                            <!--<img src="images/facebook1.png" width="100" height="100" id="facebookImg" class="contactImgs" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />-->
+                                            <!--<img src="images/facebook.png" width="100" height="100" id="facebookImg1" class="contactImgs2" data-toggle="popover" tabindex="50" data-content="test <b>text</b>" data-placement="right" />-->
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
+                        </div>
+                    </div>
+                </section>
+                <div>
+                </div>
+            </div>
+
+
+
+            <div id="footerDiv">
+
+                <footer class="page-footer font-small blue" id="screenFooter">
+
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-1">
+                        <a href="https://www.gov.il/he/departments/molsa" target="_blank"><img src="images/workLogo.png" id="workLogo" width="110" height="60" /></a>
+                        <img src="images/youthLogo.png" id="youthLogo" width="125" height="50" />
+                        <a href="http://www.ashalim.org.il/" target="_blank"><img src="images/jointLogo.png" id="jointLogo" width="80" height="60" /></a>
+                        <a href="https://yated.org/" target="_blank"><img src="images/yated.png" id="yatedLogo" width="70" height="50" /></a>
+                        <a href="#odot" data-target="#odot" data-toggle="modal" class="mobileFooterLinks" id="hitOdot">אודות</a>
+
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+
+
+            </div>
+            <!--END OF CONTACT-->
+            <!--END OF TEXT SECTION-->
+            <!-- Footer -->
+            <!-- Footer -->
+            <!--end of screen only-->
+            <!--menu and site for mobile only-->
+            <section class="mobileSection">
+                <section id="aboutMobile">
+                    <header class="hamNav">
+                        <div class="container-fluid accordionRow">
+
+                            <div class="row bgNav">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"></div>
+                            </div>
+
+                            <div class="row ">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 colsAccordion">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card" id="historyCard">
+                                            <div class="card-header" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link" id="historyBtn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+
+                                                        <img src="images/clock.png" class="imgHamNav" id="hamNavHistoryImg" width="87" height="87" />
+                                                        <span class="hamNavTitle" id="hamNavTitleHistory">היסטוריה</span>
+
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <p>
+                                                        תכנית "בשבילי" הוקמה על ידי
+                                                        <a href="http://www.ashalim.org.il/" class="outerLinks" target="_blank"> ארגון ג'וינט</a>
+                                                        הפועל למען קידום איכות החיים, שוויון הזדמנויות וצמצום פערים בחברה הישראלית.<br />
+                                                    </p>
+                                                    <p>
+                                                        בשנת 2014 הוטמעה התכנית במלואה במשרד העבודה, הרווחה והשירותים החברתיים בשירות לנוער, צעירים וצעירות.
+                                                    </p>
+                                                    <p>
+                                                        כיום התוכנית פועלת ב20 יישובים ברחבי הארץ ועתידה להתרחב במסגרת תכנית
+                                                        ״<a href="https://yated.org/" class="outerLinks" target="_blank">יתד</a>״
+                                                        , התוכנית הלאומית לצעירים וצעירות במשרד הרווחה, למרבית מרכזי הצעירים בארץ.
+                                                    </p>
+                                                    <p>
+                                                        עד כה, תכנית "בשבילי" לוותה כ1500 צעירים וצעירות באופן פרטני וקבוצתי וסייעה להם לממש את היעדים שהציבו לעצמם.
+                                                    </p>
+                                                    <div>
+                                                        <div class="thumbsMobile">
+                                                            <div class="thumbsDivAboutUs">
+                                                                <img class="thumbAboutUs" src="images/YaelBenNun.JPG" width="63" height="60" />
+                                                                <div class="thumbName"><b>יעל בן-נון</b></div>
+                                                                <div class="thumbPosition">מנהלת מקצועית מטעם "ג'וינט אשלים"</div>
+                                                            </div>
+                                                            <div class="thumbsDivAboutUs">
+                                                                <img class="thumbAboutUs" src="images/oritLahav.jpeg" width="63" height="60" />
+                                                                <div class="thumbName"><b>אורית להב</b></div>
+                                                                <div class="thumbPosition" id="thumbPosition">מפקחת ארצית מטעם הרווחה</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card" id="whoWeAreCard">
+                                            <div class="card-header" id="headingTwo">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" id="whoWeAreBtn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <img src="images/rose.png" class="imgHamNav" id="hamNavWhoWeAreImg" width="87" height="87" />
+                                                        <span class="hamNavTitle" id="hamNavTitleWhoWeAre">מי אנחנו?</span>
+
+
+
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <div id="videoAboutM" class="anchor">
+                                                        <div>
+                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8" id="videoAboutCol">
+                                                                <div class="video-container">
+                                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VtMsPcqF55o" frameborder="0" allowfullscreen></iframe>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="whoAreWeLinks">
+                                                        <div>
+                                                            <a class="goalsLink">מטרות ויעדים</a>
+                                                            <div class="hr1"></div>
+                                                        </div>
+                                                        <div>
+                                                            <a class="howItWorksLink">איך זה עובד?</a>
+                                                            <div class="hr2"></div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="goalsWWA">
+                                                        <p>
+                                                            תכנית "בשבילי" פועלת במרכזי צעירים בפריסה ארצית למען קידום יעדיהם האישיים של צעירים וצעירות הזקוקים לליווי והכוונה, יחד עם חיזוק הקשר המשפחתי, פיתוח תחושת השייכות והמסוגלות האישית והרחבת הרשתות החברתיות שלהם לקראת יציאה לחיים עצמאיים.
+                                                        </p>
+                                                        <p>
+                                                            מטרתנו היא לחולל שינוי ארוך טווח בקרב צעירים וצעירות אלו, על מנת שכל צעיר יוכל לממש את הפוטנציאל האישי ולקדם את יעדיו בתחומי ההשכלה, התעסוקה והחברה.
+                                                        </p>
+                                                    </div>
+                                                    <div class="howItWorksWWA">
+                                                        <p>
+                                                            התכנית בנויה ממפגשים אישיים במרכזי צעירים שונים ברחבי הארץ.
+                                                            במסגרת המפגשים האישיים אנו מסייעים לכם על ידי:
+                                                        </p>
+                                                        <ul class="howItWorksList ulList">
+                                                            <li>
+                                                                <span>שיחות אישיות והגדרת יעדים לשיפור בתחומים: תעסוקה, השכלה וחברה.</span>
+                                                            </li>
+
+                                                            <li>
+                                                                <span>ליווי פרטני עד להשגת היעדים שלכם.</span>
+                                                            </li>
+
+                                                            <li>
+                                                                <span>הפנייה לגורמים מתאימים לסיוע נוסף עבורכם.</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>חיבור למרכז הצעירים- צוות היועצים, אירועים ופעילויות ועוד.</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" id="numbersCard">
+                                            <div class="card-header" id="headingThree">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" id="numbersBtn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        <img src="images/pie-chart.png" class="imgHamNav" id="hamNavNumbersImg" width="87" height="87" />
+                                                        <span class="hamNavTitle" id="hamNavTitleNumbers">"בשבילי" במספרים</span>
+
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body">
+
+                                                    <div class="numberMobile" id="number1Mobile">
+                                                        <div class="numberM" id="number1M">
+                                                            1200
+                                                        </div>
+                                                        <div class="numberMe" id="numberMe1">
+                                                            צעירים וצעירות, <b>בשנת 2018</b>, קיבלו ליווי צמוד ועזרה בהגעה ליעדים שהציבו לעצמם, ב-20 מרכזי צעירים מאילת ועד לרמת הגולן.
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="numberMobile" id="number2Mobile">
+                                                        <div class="numberM" id="number2M">
+                                                            62%
+                                                        </div>
+                                                        <div class="numberMe" id="numberMe2">
+                                                            מהצעירים מעידים כי הפיקו תועלת רבה עקב השתתפותם בתכנית.
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="numberMobile" id="number3Mobile">
+                                                        <div class="numberM" id="number3M">
+                                                            57%
+                                                        </div>
+                                                        <div class="numberMe" id="numberMe3">
+                                                            מהצעירים שהשתתפו בתכנית העלו את הסבירות למימוש הפוטנציאל שלהם בלימודים ובתעסוקה.
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="numberMobile" id="number4Mobile">
+                                                        <div class="numberM" id="number4M">
+                                                            46%
+                                                        </div>
+                                                        <div class="numberMe" id="numberMe4">
+                                                            מהצעירים מעידים כי הבטחון העצמי והמוטיבציה עלתה בעקבות השתתפות בתכנית.
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="numberMobile" id="number5Mobile">
+                                                        <div class="numberM" id="number5M">
+                                                            41%
+                                                        </div>
+                                                        <div class="numberMe" id="numberMe5">
+                                                            מהצעירים שהשתתפו בתכנית נמצאים ברמת סיכון נמוכה יותר משהיו בתחילת התהליך.
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" id="sayingCard">
+                                            <div class="card-header" id="headingThree">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" id="sayingBtn" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                                        <img src="images/say.png" class="imgHamNav" id="hamNavSayingImg" width="87" height="87" />
+                                                        <span class="hamNavTitle" id="hamNavTitleSaying">צעירים אומרים...</span>
+
+
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body">
+
+                                                    <div>
+                                                        <div class="whoSaidM">ג' אומר...</div>
+                                                        <div class="whatIsSaidM">"לקחת אחריות על חיי, הצבת יעדים".</div>
+                                                    </div>
+
+                                                    <div>
+                                                        <div class="whoSaidM">י' אומר...</div>
+                                                        <div class="whatIsSaidM">"אנשים שהיו כמוני, ילדי רחוב, שהולכים לכיוון לא טוב, זקוקים גם למקום הזה ולהכוונה בחיים".</div>
+                                                    </div>
+
+                                                    <div>
+                                                        <div class="whoSaidM">ש' אומרת...</div>
+                                                        <div class="whatIsSaidM">"למדתי שהכל אפשרי ולדרוש מעצמי יותר. שמחה על כל רגע בסדנה, גרמה לי להתעצם".</div>
+                                                    </div>
+
+                                                    <div>
+                                                        <div class="whoSaidM">ד' אומר...</div>
+                                                        <div class="whatIsSaidM">"מאוד נהניתי בפעילויות החברתיות בזכות החברים והאווירה ומאוד שמח להשתתף בפעילות ולהגיע למקום".</div>
+                                                    </div>
+
+                                                    <div>
+                                                        <div class="whoSaidM">ד' ומ' אומרים...</div>
+                                                        <div class="whatIsSaidM">"בזכות התכנית אנו רואים את עצמנו עם בגרות מלאה, מתקדמים בחיים ומוצאים עבודה".</div>
+                                                    </div>
+
+                                                    <div>
+                                                        <div class="whoSaidM">י' אומר...</div>
+                                                        <div class="whatIsSaidM">"אם לא הייתי פוגש את טובה (עובדת סוציאלית מטעם התכנית) לא הייתי חושב על תואר ועל השלמת השכלה אף פעם".</div>
+                                                    </div>
+
+                                                    <div>
+                                                        <div class="whoSaidM">ח' אומר...</div>
+                                                        <div class="whatIsSaidM">"להציב לעצמי יעדים בחיים ולעמוד בהם, לשלב המון תחומים שלא חשבתי שיעניינו אותי".</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card" id="contactCard">
+                                            <div class="card-header" id="headingThree">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" id="contactBtn" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                                        <img src="images/network.png" class="imgHamNav" id="hamNavNetworkImg" width="87" height="87" />
+                                                        <span class="hamNavTitle" id="hamNavTitleContact">צור קשר</span>
+
+
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <div>
+                                                        איתור תכנית "בשבילי" הקרובה אליך:
+
+                                                        <div class="dropdown">
+                                                            <div class="btn-group">
+
+                                                                <div class="form-group">
+                                                                    <select class="form-control" id="exampleFormControlSelect2" name="contactSelect">
+                                                                        <option selected="selected" disabled="disabled">בחר יישוב...</option>
+                                                                        <option id="umElFahemM">אום אל פאחם</option>
+                                                                        <option id="eilatM">אילת</option>
+                                                                        <option id="efratM">אפרת</option>
+                                                                        <option id="beerShevaM">באר שבע</option>
+                                                                        <option id="beitJanM">בית ג'אן</option>
+                                                                        <!--<option id="bneiShimon">בני שמעון</option>-->
+                                                                        <option id="haderaM">חדרה</option>
+                                                                        <option id="holonM">חולון</option>
+                                                                        <option id="tiratCarmelM">טירת כרמל</option>
+                                                                        <option id="yokneamM">יוקנעם</option>
+                                                                        <option id="jerusalemM">ירושלים</option>
+                                                                        <option id="netanyaM">נתניה</option>
+                                                                        <option id="acoM">עכו</option>
+                                                                        <option id="afulaM">עפולה</option>
+                                                                        <option id="pardesHanaM">פרדס חנה-כרכור</option>
+                                                                        <option id="rlzM">ראשון לציון</option>
+                                                                        <option id="rehovotM">רחובות</option>
+                                                                        <option id="shaarHanegevM">שער הנגב</option>
+
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div id="contactInfoM">
+                                                            <div id="contactInformationM">
+                                                                <div id="OrgOperatingM">
+                                                                    <span id="orgOperatingSpanM">
+                                                                        ארגון מפעיל:
+                                                                    </span>
+                                                                    <span id="nameOfOrgM"></span>
+                                                                </div>
+                                                                <div id="contactWaysM">
+                                                                    <div id="contactInside">
+                                                                        <div id="operatingPersonM">
+                                                                            <span id="operatingPersonSpanM">
+                                                                                <img src="images/coordinator.png" width="50" height="50" id="coordinatorImg" class="contactImgs" />
+                                                                                רכז/ת:
+                                                                            </span>
+                                                                            <span id="nameOfOperatingPersonM"></span>
+                                                                        </div>
+                                                                        <div id="phoneNumM">
+                                                                            <span id="phoneNumSpanM">
+                                                                                <img src="images/phone.png" width="50" height="50" id="phoneImg" class="contactImgs" />
+
+                                                                                טלפון:
+                                                                            </span>
+                                                                            <span id="nameOfphoneNumM"></span>
+                                                                        </div>
+                                                                        <div id="addressOfCenterM">
+                                                                            <span id="addressOfCenterSpanM">
+                                                                                <img src="images/location.png" width="50" height="50" id="locationImg" class="contactImgs" />
+
+                                                                                כתובת:
+                                                                            </span>
+                                                                            <span id="nameOfAddressOfCenterM"></span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                     
+                                                                            <div id="facebookAndEmailM">
+                                                                                <div id="facebookPageM">
+                                                                                    <span id="facebookPageSpanM">
+                                                                                     <a href="" id="linkToFacebookM" target="_blank"><img src="images/facebook.png" href="" width="50" height="50" id="facebookImg" class="contactImgs" /></a>
+                                                                                
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div id="emailAddressM">
+                                                                                    <span id="emailAddressSpanM">
+                                                                                     <a href="" id="linkToEmailM">
+                                                                                         <img src="images/email.png" width="50" height="50" id="emailImg" class="contactImgs" />
+                                                                                     </a>
+
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+                </section>
+
+
+            </section>
+
+            <div id="contactM2">
+                <div>
+                    <div>
+                        איתור תכנית "בשבילי" הקרובה אליך:
+                    </div>
+                    <div>
+                        <div class="dropdown">
+                            <div class="btn-group">
+
+
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect3" name="contactSelect">
+                                        <option selected="selected" disabled="disabled">בחר יישוב...</option>
+                                        <option id="umElFahemM2">אום אל פאחם</option>
+                                        <option id="eilatM2">אילת</option>
+                                        <option id="efratM2">אפרת</option>
+                                        <option id="beerShevaM2">באר שבע</option>
+                                        <option id="beitJanM2">בית ג'אן</option>
+                                        <!--<option id="bneiShimon">בני שמעון</option>-->
+                                        <option id="haderaM2">חדרה</option>
+                                        <option id="holonM2">חולון</option>
+                                        <option id="tiratCarmelM2">טירת כרמל</option>
+                                        <option id="yokneamM2">יוקנעם</option>
+                                        <option id="jerusalemM2">ירושלים</option>
+                                        <option id="netanyaM2">נתניה</option>
+                                        <option id="acoM2">עכו</option>
+                                        <option id="afulaM2">עפולה</option>
+                                        <option id="pardesHanaM2">פרדס חנה-כרכור</option>
+                                        <option id="rlzM2">ראשון לציון</option>
+                                        <option id="rehovotM2">רחובות</option>
+                                        <option id="shaarHanegevM2">שער הנגב</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="contactInfoM2">
+                            <div id="contactInformationM2">
+                                <div id="OrgOperatingM2">
+                                    <span id="orgOperatingSpanM2">
+                                        ארגון מפעיל:
+                                    </span>
+                                    <span id="nameOfOrgM2"></span>
+                                </div>
+                                <div id="contactWaysM2">
+                                    <div id="contactInsideM2">
+                                        <div id="operatingPersonM2">
+                                            <span id="operatingPersonSpanM2">
+                                                <img src="images/coordinator.png" width="30" height="30" id="coordinatorImg" class="contactImgs" />
+                                                רכז/ת:
+                                            </span>
+                                            <span id="nameOfOperatingPersonM2"></span>
+                                        </div>
+                                        <div id="phoneNumM2">
+                                            <span id="phoneNumSpanM2">
+                                                <img src="images/phone.png" width="30" height="30" id="phoneImg" class="contactImgs" />
+
+                                                טלפון:
+                                            </span>
+                                            <span id="nameOfphoneNumM2"></span>
+                                        </div>
+
+
+                                    </div>
+                                    <div id="contactInside2">
+                                        <div id="addressOfCenterM2">
+                                            <span id="addressOfCenterSpanM2">
+                                                <img src="images/location.png" width="30" height="30" id="locationImg" class="contactImgs" />
+
+                                                כתובת:
+                                            </span>
+                                            <span id="nameOfAddressOfCenterM2"></span>
+                                        </div>
+                                        <div id="facebookPageM2">
+                                            <span id="facebookPageSpanM2">
+                                                <img src="images/facebook.png" width="30" height="30" id="facebookImg" class="contactImgs" />
+                                                עמוד פייסבוק:
+                                            </span>
+                                            <span id="nameOfacebookPageM2"></span>
+                                        </div>
+                                        <div id="emailAddressM2">
+                                            <span id="emailAddressSpanM2">
+                                                <img src="images/email.png" width="30" height="30" id="emailImg" class="contactImgs" />
+
+                                                דואר אלקטרוני:
+                                            </span>
+                                            <span id="nameOfEmailAddressM2"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="odot" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">אודות</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="hOdot" id="hOdot">תכנית "בשבילי"</div>
+                            <div class="hOdot">תחושת שייכות בקרב צעירים במצבי סיכון</div>
+
+                            <div class="hOdot" id="hOdotDescription">פרויקט גמר, תשע"ט</div>
+                            <div class="hOdot"><a href="https://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה</a></div>
+
+                            <div id="teamOdotContainer">
+                                <div class="teamOdot">
+                                    <img src="images/logoHIT.JPG" id="hitLogoOdot" width="80" height="80" />
+                                </div>
+                                <div class="teamOdot">
+                                    <div><span class="boldPartsOdot">צוות הפרויקט:</span></div>
+                                    <div>בר גבאי וניבה קשת</div>
+                                    <div><span class="boldPartsOdot">מנחים:</span></div>
+                                    <div>ינאי זגורי ונוהר רז-פוגל</div>
+                                </div>
+                            </div>
+
+                            <div id="aboutOdotContainer">
+                                <div class="aboutOdot">
+                                    <img src="images/jointLogo.png" id="jointLogoOdot" width="100" height="80" />
+                                </div>
+                                <div class="aboutOdot" id="aboutOdot">
+                                    <div>בשיתוף עם ג'וינט אשלים</div>
+                                    <div>
+                                        <span class="boldPartsOdot">נציגת הארגון:</span>
+                                        יעל בן-נון
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            כל הזכויות שמורות למכון טכנולוגי חולון HIT ©
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="participations" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">בשיתוף עם...</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body participationsModal">
+                            <div class="participations">
+                                <a href="https://www.gov.il/he/departments/molsa" target="_blank"><img src="images/workLogo.png" class="participationsImgs" id="workLogoM" width="130" height="70" /></a>
+                                <img src="images/youthLogo.png" id="youthLogoM" width="120" height="50" />
+                            </div>
+                            <div class="participations">
+                                <a href="http://www.ashalim.org.il/" target="_blank"><img src="images/jointLogo.png" class="participationsImgs" id="jointLogoM" width="100" height="70" /></a>
+                                <a href="https://yated.org/" target="_blank"><img src="images/yated.png" class="participationsImgs" id="yatedLogoM" width="80" height="50" /></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="jScripts/JavaScriptAboutUs.js"></script>
+    </div>
+    
+    <footer class="page-footer font-small blue" id="mobileFooter">
+
+        <!-- Copyright -->
+        <div class="footer-copyright">
+            <a href="#participations" data-target="#participations" data-toggle="modal" class="mobileFooterLinks">בשיתוף עם...</a>
+
+            <!--<a href="https://www.gov.il/he/departments/molsa" target="_blank"><img src="images/workLogo.png" id="workLogoM" width="90" height="50" /></a>
+            <img src="images/youthLogo.png" id="youthLogoM" width="95" height="40" />
+            <a href="http://www.ashalim.org.il/" target="_blank"><img src="images/jointLogo.png" id="jointLogoM" width="70" height="50" /></a>
+            <a href="https://yated.org/" target="_blank"><img src="images/yated.png" id="yatedLogoM" width="50" height="30" /></a>-->
+            <a href="#odot" data-target="#odot" data-toggle="modal" class="mobileFooterLinks" id="hitOdot">אודות</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+</body>
+</html>

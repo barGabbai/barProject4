@@ -2,8 +2,9 @@
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    height: 600px;
     overflow-y: scroll;
+         min-height: 100%;
+
 }
 
 
@@ -1483,7 +1484,7 @@ img#lastImageQ1 {
     position: absolute;
     top: 400px;
     width: 100%;
-    height:700px
+    height:100%
 }
 
 #results {

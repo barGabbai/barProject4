@@ -1633,7 +1633,7 @@ table{
     .carousel-inner .item {
        /* display: run-in;*/
         width: 100%;
-        height:auto !important;
+      /*  height:auto !important;*/
         /*height: 100%;*/
     }
 
